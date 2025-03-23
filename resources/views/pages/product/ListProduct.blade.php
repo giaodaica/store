@@ -186,7 +186,7 @@
                                                 <div data-bs-toggle="tooltip" data-bs-trigger="hover"
                                                     data-bs-placement="top" title="Out of Stock">
                                                     <input type="radio" class="btn-check" name="productsize-radio"
-                                                        id="productsize-radio1" disabled>
+                                                        id="productsize-radio1" >
                                                     <label
                                                         class="btn btn-soft-primary avatar-xs rounded-circle p-0 d-flex justify-content-center align-items-center"
                                                         for="productsize-radio1">S</label>
@@ -212,7 +212,7 @@
                                                 <div data-bs-toggle="tooltip" data-bs-trigger="hover"
                                                     data-bs-placement="top" title="Out of Stock">
                                                     <input type="radio" class="btn-check" name="productsize-radio"
-                                                        id="productsize-radio4" disabled>
+                                                        id="productsize-radio4" >
                                                     <label
                                                         class="btn btn-soft-primary avatar-xs rounded-circle p-0 d-flex justify-content-center align-items-center"
                                                         for="productsize-radio4">XL</label>

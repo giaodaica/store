@@ -3,6 +3,7 @@
 <script src="{{ asset('build/assets/libs/simplebar/simplebar.min.js') }}"></script>
 <script src="{{ asset('build/assets/libs/node-waves/waves.min.js') }}"></script>
 <script src="{{ asset('build/assets/libs/feather-icons/feather.min.js') }}"></script>
+<script src="{{ asset('build/assets/libs/glightbox/js/glightbox.min.js') }}"></script>
 <script src="{{ asset('build/assets/js/pages/gallery.init.js') }}"></script>
 
 <!-- Plugin chính -->
@@ -20,7 +21,6 @@
 
 <!-- Để `widgets.init.js` và `app.js` ở cuối -->
 <script src="{{ asset('build/assets/js/pages/widgets.init.js') }}"></script>
-<script src="{{ asset('build/assets/libs/glightbox/js/glightbox.min.js') }}"></script>
 <script src="{{ asset('build/assets/js/app.js') }}"></script>
 
 <!-- Biểu đồ và bản đồ (không phụ thuộc vào DOM) -->
@@ -28,12 +28,3 @@
 <script src="{{ asset('build/assets/libs/jsvectormap/js/jsvectormap.min.js') }}"></script>
 <script src="{{ asset('build/assets/libs/jsvectormap/maps/world-merc.js') }}"></script>
 <script src="{{ asset('build/assets/libs/jsvectormap/maps/us-merc-en.js') }}"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const lightbox = GLightbox({
-            selector: '.image-popup',
-            loop: true, // Cho phép lặp lại ảnh khi đến cuối
-            touchNavigation: true // Cho phép vuốt trên thiết bị cảm ứng
-        });
-    });
-</script>

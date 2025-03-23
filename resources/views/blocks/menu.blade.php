@@ -28,7 +28,7 @@
             </ul>
 
             <div class="">
-                <a href="apps-nft-wallet.html" class="btn btn-success">Wallet Connect</a>
+                <a href="apps-nft-wallet.html" class="btn btn-success">Đăng Nhập</a>
             </div>
         </div>
 

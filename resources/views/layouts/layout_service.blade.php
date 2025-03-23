@@ -5,15 +5,7 @@
 
         {{-- begin head --}}
         @include('blocks.head')
-        <style>
-            .navbar-landing {
-            padding: 10px 0;
-            -webkit-transition: all .5s ease;
-            transition: all .5s ease;
-            background: currentColor; /* Đổi sang màu mong muốn */
-        }
-
-            </style>
+      @yield('css-custom-head')
         {{-- end head --}}
 
         <body data-bs-spy="scroll" data-bs-target="#navbar-example">

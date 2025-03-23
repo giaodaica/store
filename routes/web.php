@@ -7,3 +7,4 @@ use Inertia\Inertia;
 
 Route::get('/',[HomeController::class,'index']);
 Route::get('shop',[ProductController::class,'index']);
+Route::get('detail',[ProductController::class,'show']);

@@ -35,7 +35,7 @@
                         <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                     </div>
                     <div class="explore-place-bid-img">
-                        <img src="{{ asset('build/assets/images/nft/img-03.jpg') }}" alt="" class="card-img-top explore-img" />
+                        <img src="{{ asset('assets/images/nft/img-03.jpg') }}" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
                             <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -62,7 +62,7 @@
                         <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                     </div>
                     <div class="explore-place-bid-img">
-                        <img src="{{ asset('build/assets/images/nft/img-02.jpg') }}" alt="" class="card-img-top explore-img" />
+                        <img src="{{ asset('assets/images/nft/img-02.jpg') }}" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
                             <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -116,7 +116,7 @@
                         <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                     </div>
                     <div class="explore-place-bid-img">
-                        <img src="{{ asset('build/assets/images/nft/img-01.jpg') }}" alt="" class="card-img-top explore-img" />
+                        <img src="{{ asset('assets/images/nft/img-01.jpg') }}" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
                             <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -143,7 +143,7 @@
                         <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                     </div>
                     <div class="explore-place-bid-img">
-                        <img src="{{ asset('build/assets/images/nft/img-05.jpg') }}" alt="" class="card-img-top explore-img" />
+                        <img src="{{ asset('assets/images/nft/img-05.jpg') }}" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
                             <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -170,7 +170,7 @@
                         <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                     </div>
                     <div class="explore-place-bid-img">
-                        <img src="{{ asset('build/assets/images/nft/img-06.jpg') }}" alt="" class="card-img-top explore-img" />
+                        <img src="{{ asset('assets/images/nft/img-06.jpg') }}" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
                             <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>

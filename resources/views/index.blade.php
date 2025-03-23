@@ -49,7 +49,7 @@
                     <div class="card explore-box card-animate border">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
-                                <img src="{{ asset('build/assets/images/users/avatar-2.jpg') }}" alt="" class="avatar-xs rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-2.jpg') }}" alt="" class="avatar-xs rounded-circle">
                                 <div class="ms-2 flex-grow-1">
                                     <a href="#!"><h6 class="mb-0 fs-15">Nancy Martino</h6></a>
                                     <p class="mb-0 text-muted fs-13">Owners</p>
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                             <div class="explore-place-bid-img overflow-hidden rounded">
-                                <img src="{{ asset('build/assets/images/nft/img-05.jpg') }}" alt="" class="explore-img w-100">
+                                <img src="{{ asset('assets/images/nft/img-05.jpg') }}" alt="" class="explore-img w-100">
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -77,7 +77,7 @@
                     <div class="card explore-box card-animate border">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
-                                <img src="{{ asset('build/assets/images/users/avatar-9.jpg') }}" alt="" class="avatar-xs rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-9.jpg') }}" alt="" class="avatar-xs rounded-circle">
                                 <div class="ms-2 flex-grow-1">
                                     <a href="#!"><h6 class="mb-0 fs-15">Henry Baird</h6></a>
                                     <p class="mb-0 text-muted fs-13">Creators</p>
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="explore-place-bid-img overflow-hidden rounded">
-                                <img src="{{ asset('build/assets/images/nft/img-03.jpg') }}" alt="" class="explore-img w-100">
+                                <img src="{{ asset('assets/images/nft/img-03.jpg') }}" alt="" class="explore-img w-100">
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -105,7 +105,7 @@
                     <div class="card explore-box card-animate border">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
-                                <img src="{{ asset('build/assets/images/users/avatar-10.jpg') }}" alt="" class="avatar-xs rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-10.jpg') }}" alt="" class="avatar-xs rounded-circle">
                                 <div class="ms-2 flex-grow-1">
                                     <a href="#!"><h6 class="mb-0 fs-15">Diana Kohler</h6></a>
                                     <p class="mb-0 text-muted fs-13">Owners</p>
@@ -151,7 +151,7 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-shink-0">
-                                    <img src="{{ asset('build/assets/images/nft/img-01.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded" />
+                                    <img src="{{ asset('assets/images/nft/img-01.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded" />
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <a href="pages-profile.html">
@@ -179,7 +179,7 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-shink-0">
-                                    <img src="{{ asset('build/assets/images/users/avatar-5.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
+                                    <img src="{{ asset('assets/images/users/avatar-5.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <a href="pages-profile.html">
@@ -207,7 +207,7 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-shink-0">
-                                    <img src="{{ asset('build/assets/images/nft/img-06.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
+                                    <img src="{{ asset('assets/images/nft/img-06.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <a href="pages-profile.html">
@@ -265,7 +265,7 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-shink-0">
-                                    <img src="{{ asset('build/assets/images/users/avatar-8.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
+                                    <img src="{{ asset('assets/images/users/avatar-8.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <a href="pages-profile.html">
@@ -294,7 +294,7 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-shink-0">
-                                    <img src="{{ asset('build/assets/images/nft/img-02.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
+                                    <img src="{{ asset('assets/images/nft/img-02.jpg') }}" alt="" class="avatar-sm object-fit-cover rounded">
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <a href="pages-profile.html">

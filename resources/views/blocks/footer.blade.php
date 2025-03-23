@@ -4,7 +4,7 @@
             <div class="col-lg-4 mt-4">
                 <div>
                     <div>
-                        <img src="{{ asset('build/assets/images/virals-logo.png') }}" alt="logo light" height="17">
+                        <img src="{{ asset('assets/images/virals-logo.png') }}" alt="logo light" height="17">
                     </div>
                     <div class="mt-4">
                         <p>Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi</p>

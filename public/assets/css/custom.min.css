@@ -1,0 +1,11 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+h1.display-4.fw-medium.mb-4.lh-base.text-white{
+    opacity: 0;
+}
+p.lead.text-white-50.lh-base.mb-4.pb-2{
+    opacity: 0;
+}
+a.nav-link.active{
+    color: black;
+}

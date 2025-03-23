@@ -24,27 +24,27 @@
                                 <div class="swiper product-thumbnail-slider p-2 rounded bg-light">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="{{ asset('build/assets/images/products/img-8.png') }}"
+                                            <a href="{{ asset('assets/images/products/img-8.png') }}"
                                                 class="image-popup">
-                                                <img src="{{ asset('build/assets/images/products/img-8.png') }}"
+                                                <img src="{{ asset('assets/images/products/img-8.png') }}"
                                                     alt="" class="img-fluid d-block" />
                                             </a>
                                         </div>
                                         <div class="swiper-slide">
-                                           <a href="{{ asset('build/assets/images/products/img-6.png') }}" class="image-popup">
-                                            <img src="{{ asset('build/assets/images/products/img-6.png') }}" alt=""
+                                           <a href="{{ asset('assets/images/products/img-6.png') }}" class="image-popup">
+                                            <img src="{{ asset('assets/images/products/img-6.png') }}" alt=""
                                             class="img-fluid d-block" />
                                            </a>
                                         </div>
                                         <div class="swiper-slide">
-                                            <a href="{{ asset('build/assets/images/products/img-1.png') }}" class="image-popup">
-                                             <img src="{{ asset('build/assets/images/products/img-1.png') }}" alt=""
+                                            <a href="{{ asset('assets/images/products/img-1.png') }}" class="image-popup">
+                                             <img src="{{ asset('assets/images/products/img-1.png') }}" alt=""
                                              class="img-fluid d-block" />
                                             </a>
                                          </div>
                                          <div class="swiper-slide">
-                                            <a href="{{ asset('build/assets/images/products/img-7.png') }}" class="image-popup">
-                                             <img src="{{ asset('build/assets/images/products/img-7.png') }}" alt=""
+                                            <a href="{{ asset('assets/images/products/img-7.png') }}" class="image-popup">
+                                             <img src="{{ asset('assets/images/products/img-7.png') }}" alt=""
                                              class="img-fluid d-block" />
                                             </a>
                                          </div>
@@ -57,25 +57,25 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="nav-slide-item">
-                                                <img src="{{ asset('build/assets/images/products/img-8.png') }}"
+                                                <img src="{{ asset('assets/images/products/img-8.png') }}"
                                                     alt="" class="img-fluid d-block" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="nav-slide-item">
-                                                <img src="{{ asset('build/assets/images/products/img-6.png') }}"
+                                                <img src="{{ asset('assets/images/products/img-6.png') }}"
                                                     alt="" class="img-fluid d-block" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="nav-slide-item">
-                                                <img src="{{ asset('build/assets/images/products/img-1.png') }}"
+                                                <img src="{{ asset('assets/images/products/img-1.png') }}"
                                                     alt="" class="img-fluid d-block" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="nav-slide-item">
-                                                <img src="{{ asset('build/assets/images/products/img-7.png') }}"
+                                                <img src="{{ asset('assets/images/products/img-7.png') }}"
                                                     alt="" class="img-fluid d-block" />
                                             </div>
                                         </div>
@@ -406,17 +406,17 @@
 
                                                                 <div class="d-flex flex-grow-1 gap-2 mb-3">
                                                                     <a href="#" class="d-block">
-                                                                        <img src="{{ asset('build/assets/images/small/img-12.jpg') }}"
+                                                                        <img src="{{ asset('assets/images/small/img-12.jpg') }}"
                                                                             alt=""
                                                                             class="avatar-sm rounded object-fit-cover">
                                                                     </a>
                                                                     <a href="#" class="d-block">
-                                                                        <img src="{{ asset('build/assets/images/small/img-11.jpg') }}"
+                                                                        <img src="{{ asset('assets/images/small/img-11.jpg') }}"
                                                                             alt=""
                                                                             class="avatar-sm rounded object-fit-cover">
                                                                     </a>
                                                                     <a href="#" class="d-block">
-                                                                        <img src="{{ asset('build/assets/images/small/img-10.jpg') }}"
+                                                                        <img src="{{ asset('assets/images/small/img-10.jpg') }}"
                                                                             alt=""
                                                                             class="avatar-sm rounded object-fit-cover">
                                                                     </a>
@@ -548,8 +548,8 @@
                             <div class="swiper-slide">
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
-                                        <a class="image-popup" href="{{ asset('build/assets/images/small/img-1.jpg') }}" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('build/assets/images/small/img-1.jpg') }}" alt="" />
+                                        <a class="image-popup" href="{{ asset('assets/images/small/img-1.jpg') }}" title="">
+                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('assets/images/small/img-1.jpg') }}" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Glasses and laptop from above</h5>
                                             </div>
@@ -575,8 +575,8 @@
                             <div class="swiper-slide">
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
-                                        <a class="image-popup" href="{{ asset('build/assets/images/small/img-2.jpg') }}" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('build/assets/images/small/img-2.jpg') }}" alt="" />
+                                        <a class="image-popup" href="{{ asset('assets/images/small/img-2.jpg') }}" title="">
+                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('assets/images/small/img-2.jpg') }}" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Working at a coffee shop</h5>
                                             </div>
@@ -602,8 +602,8 @@
                             <div class="swiper-slide">
                                 <div class="gallery-box card mb-0">
                                     <div class="gallery-container">
-                                        <a class="image-popup" href="{{ asset('build/assets/images/small/img-10.jpg') }}" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('build/assets/images/small/img-10.jpg') }}" alt="">
+                                        <a class="image-popup" href="{{ asset('assets/images/small/img-10.jpg') }}" title="">
+                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('assets/images/small/img-10.jpg') }}" alt="">
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Fun day at the Hill Station</h5>
                                             </div>
@@ -629,8 +629,8 @@
                             <div class="swiper-slide">
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
-                                        <a class="image-popup" href="{{ asset('build/assets/images/small/img-4.jpg') }}" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('build/assets/images/small/img-4.jpg') }}" alt="" />
+                                        <a class="image-popup" href="{{ asset('assets/images/small/img-4.jpg') }}" title="">
+                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('assets/images/small/img-4.jpg') }}" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Drawing a sketch</h5>
                                             </div>
@@ -656,8 +656,8 @@
                             <div class="swiper-slide">
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
-                                        <a class="image-popup" href="{{ asset('build/assets/images/small/img-6.jpg') }}" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('build/assets/images/small/img-6.jpg') }}" alt="" />
+                                        <a class="image-popup" href="{{ asset('assets/images/small/img-6.jpg') }}" title="">
+                                            <img class="gallery-img img-fluid mx-auto" src="{{ asset('assets/images/small/img-6.jpg') }}" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Project discussion with team</h5>
                                             </div>

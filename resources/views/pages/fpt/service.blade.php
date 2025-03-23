@@ -14,7 +14,7 @@
             <div class="col-lg-4">
                 <div class="card text-center border shadow-none">
                     <div class="card-body py-5 px-4">
-                        <img src="{{ asset('build/assets/images/nft/wallet/metamask.png') }}" alt="" height="55" class="mb-3 pb-2">
+                        <img src="{{ asset('assets/images/nft/wallet/metamask.png') }}" alt="" height="55" class="mb-3 pb-2">
                         <h5>Metamask</h5>
                         <p class="text-muted pb-1">MetaMask is a popular cryptocurrency wallet known for its ease of use, availability on both desktops.</p>
                         <a href="#!" class="btn btn-soft-info">Connect Wallet</a>
@@ -24,7 +24,7 @@
             <div class="col-lg-4">
                 <div class="card text-center border shadow-none">
                     <div class="card-body py-5 px-4">
-                        <img src="{{ asset('build/assets/images/nft/wallet/coinbase.png') }}" alt="" height="55" class="mb-3 pb-2">
+                        <img src="{{ asset('assets/images/nft/wallet/coinbase.png') }}" alt="" height="55" class="mb-3 pb-2">
                         <h5>Coinbase Wallet</h5>
                         <p class="text-muted pb-1">Coinbase Wallet is a self-custody wallet that gives you complete control of your crypto for your Wallet.</p>
                         <a href="#!" class="btn btn-info">Change Wallet</a>
@@ -35,7 +35,7 @@
             <div class="col-lg-4">
                 <div class="card text-center border shadow-none">
                     <div class="card-body py-5 px-4">
-                        <img src="{{ asset('build/assets/images/nft/wallet/binance.png') }}" alt="" height="55" class="mb-3 pb-2">
+                        <img src="{{ asset('assets/images/nft/wallet/binance.png') }}" alt="" height="55" class="mb-3 pb-2">
                         <h5>Binance</h5>
                         <p class="text-muted pb-1">Binance is considered a safe exchange that allows user account protection via the use of Two Authentication.</p>
                         <a href="#!" class="btn btn-soft-info">Connect Wallet</a>

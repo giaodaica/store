@@ -18,12 +18,12 @@
                                 <div class="card-body">
                                     <div class="row g-1 mb-3">
                                         <div class="col-6">
-                                            <img src="{{ asset('build/assets/images/nft/img-06.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-06.jpg') }}" alt="" class="img-fluid rounded">
                                             <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="img-fluid rounded mt-1">
                                         </div><!--end col-->
                                         <div class="col-6">
                                             <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="img-fluid rounded mb-1">
-                                            <img src="{{ asset('build/assets/images/nft/img-03.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-03.jpg') }}" alt="" class="img-fluid rounded">
                                         </div><!--end col-->
                                     </div><!--end row-->
                                     <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
@@ -36,12 +36,12 @@
                                 <div class="card-body">
                                     <div class="row g-1 mb-3">
                                         <div class="col-6">
-                                            <img src="{{ asset('build/assets/images/nft/img-05.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-05.jpg') }}" alt="" class="img-fluid rounded">
                                             <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mt-1">
                                         </div><!--end col-->
                                         <div class="col-6">
                                             <img src="https://img.themesbrand.com/velzon/images/img-4.gif" alt="" class="img-fluid rounded mb-1">
-                                            <img src="{{ asset('build/assets/images/nft/img-04.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-04.jpg') }}" alt="" class="img-fluid rounded">
                                         </div><!--end col-->
                                     </div><!--end row-->
                                     <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
@@ -54,12 +54,12 @@
                                 <div class="card-body">
                                     <div class="row g-1 mb-3">
                                         <div class="col-6">
-                                            <img src="{{ asset('build/assets/images/nft/img-02.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-02.jpg') }}" alt="" class="img-fluid rounded">
                                             <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="img-fluid rounded mt-1">
                                         </div><!--end col-->
                                         <div class="col-6">
                                             <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mb-1">
-                                            <img src="{{ asset('build/assets/images/nft/img-01.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-01.jpg') }}" alt="" class="img-fluid rounded">
                                         </div><!--end col-->
                                     </div><!--end row-->
                                     <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
@@ -72,12 +72,12 @@
                                 <div class="card-body">
                                     <div class="row g-1 mb-3">
                                         <div class="col-6">
-                                            <img src="{{ asset('build/assets/images/nft/img-03.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-03.jpg') }}" alt="" class="img-fluid rounded">
                                             <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="img-fluid rounded mt-1">
                                         </div><!--end col-->
                                         <div class="col-6">
                                             <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="img-fluid rounded mb-1">
-                                            <img src="{{ asset('build/assets/images/nft/img-05.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-05.jpg') }}" alt="" class="img-fluid rounded">
                                         </div><!--end col-->
                                     </div><!--end row-->
                                     <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
@@ -90,12 +90,12 @@
                                 <div class="card-body">
                                     <div class="row g-1 mb-3">
                                         <div class="col-6">
-                                            <img src="{{ asset('build/ssets/images/nft/img-02.jpg') }}a" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-02.jpg') }}a" alt="" class="img-fluid rounded">
                                             <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="img-fluid rounded mt-1">
                                         </div><!--end col-->
                                         <div class="col-6">
                                             <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mb-1">
-                                            <img src="{{ asset('build/assets/images/nft/img-01.jpg') }}" alt="" class="img-fluid rounded">
+                                            <img src="{{ asset('assets/images/nft/img-01.jpg') }}" alt="" class="img-fluid rounded">
                                         </div><!--end col-->
                                     </div><!--end row-->
                                     <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>

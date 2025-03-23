@@ -9,3 +9,6 @@ p.lead.text-white-50.lh-base.mb-4.pb-2{
 a.nav-link.active{
     color: black;
 }
+section#hero{
+    height: 644.75px;
+}

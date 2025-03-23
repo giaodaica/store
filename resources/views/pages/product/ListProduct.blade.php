@@ -1,9 +1,6 @@
 @extends('layouts.layout_service')
 @section('css-custom-head')
 <style>
-    .container{
-        padding-top: 20px
-    }
     .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     color: var(--vz-btn-active-color);
     background-color: black !important;
@@ -19,7 +16,7 @@
 @endsection
 @include('blocks.banner')
 @section('main')
-<div class="container"><div class="row">
+<div class="container" style="padding-top: 20px"><div class="row">
     <div class="col-lg-12">
         <div class="text-center">
 

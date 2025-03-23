@@ -7,9 +7,13 @@
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('build/assets/images/favicon.ico') }}">
-
+       <!-- glightbox css -->
+       <link rel="stylesheet" href="{{ asset('build/assets/libs/glightbox/css/glightbox.min.css') }}">
     <!--Swiper slider css-->
     <link href="{{ asset('build/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
+    <!-- plugin css -->
+    <link href="{{ asset('build/assets/libs/jsvectormap/css/jsvectormap.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('build/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" />
 
     <!-- Layout config Js -->
     <script src="{{ asset('build/assets/js/layout.js') }}"></script>
@@ -21,6 +25,5 @@
     <link href="{{ asset('build/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="{{ asset('build/assets/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
-
+<!-- App js -->
 </head>
-

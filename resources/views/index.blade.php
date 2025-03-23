@@ -5,6 +5,11 @@
 @section('main')
       <!-- start hero section -->
     @include('blocks.banner')
+    @section('css-custom')
+<style>
+  
+</style>
+    @endsection
     <!-- start fpt -->
     @include('pages.fpt.service')
     <!-- end fpt -->

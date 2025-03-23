@@ -4,13 +4,14 @@
 
 {{-- begin head --}}
 @include('blocks.head')
+@yield('css-custom')
 {{-- end head --}}
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
     <!-- Begin page -->
     <div class="layout-wrapper landing">
-        
+
         {{-- begin nav --}}
         @include('blocks.menu')
         <!-- end navbar -->

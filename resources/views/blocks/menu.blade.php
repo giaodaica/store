@@ -29,6 +29,7 @@
 
             <div class="">
                 <a href="apps-nft-wallet.html" class="btn btn-success">Đăng Nhập</a>
+                <a href="apps-nft-wallet.html" class="btn btn-success"><i class="ri-shopping-cart-2-fill"></i></a>
             </div>
         </div>
 

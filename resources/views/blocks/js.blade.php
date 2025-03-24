@@ -21,9 +21,10 @@
 <!-- Các script đặc thù -->
 <script src="{{ asset('assets/js/pages/nft-landing.init.js') }}"></script>
 <script src="{{ asset('assets/js/pages/ecommerce-product-details.init.js') }}"></script>
+<script src="{{ asset('assets/js/pages/notifications.init.js')}}"></script>
+<script src="{{ asset('assets/js/pages/widgets.init.js') }}"></script>
 
 <!-- Để `widgets.init.js` và `app.js` ở cuối -->
-<script src="{{ asset('assets/js/pages/widgets.init.js') }}"></script>
 <script src="{{ asset('assets/js/app.js') }}"></script>
 <script src="{{ asset('assets/js/pages/swiper.init.js') }}"></script>
 

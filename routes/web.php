@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ShopingController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -19,3 +20,4 @@ require __DIR__.'/auth.php';
 Route::get('/',[HomeController::class,'index']);
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);
+Route::post('shoping-cart',[ShopingController::class,'index']);

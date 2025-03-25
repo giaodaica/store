@@ -23,6 +23,7 @@
 <script src="{{ asset('assets/js/pages/ecommerce-product-details.init.js') }}"></script>
 <script src="{{ asset('assets/js/pages/notifications.init.js')}}"></script>
 <script src="{{ asset('assets/js/pages/widgets.init.js') }}"></script>
+<script src="{{asset('assets/js/pages/ecommerce-product-checkout.init.js')}}"></script>
 
 <!-- Để `widgets.init.js` và `app.js` ở cuối -->
 <script src="{{ asset('assets/js/app.js') }}"></script>

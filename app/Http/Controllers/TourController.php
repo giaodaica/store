@@ -4,15 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ShopingController extends Controller
+class TourController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
-
     {
-        return view('pages.product.Cart');
+        return view('pages.tour.Listtour');
     }
 
     /**
@@ -28,8 +27,7 @@ class ShopingController extends Controller
      */
     public function store(Request $request)
     {
-        print_r($_POST);
-
+        //
     }
 
     /**
@@ -37,7 +35,8 @@ class ShopingController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $data = $id;
+        return view("pages.tour.TourDetail");
     }
 
     /**
@@ -59,9 +58,6 @@ class ShopingController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function checkout(){
-        return view('pages.product.Check_out');
-    }
     public function destroy(string $id)
     {
         //

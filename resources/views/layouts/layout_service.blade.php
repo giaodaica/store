@@ -1,4 +1,11 @@
-
+@section('menu')
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="ms-auto">
+        <a href="apps-nft-wallet.html" class="btn btn-success">Đăng Nhập</a>
+        <a href="shoping-cart" class="btn btn-success"><i class="ri-shopping-cart-2-fill"></i></a>
+    </div>
+</div>
+@endsection
         <!doctype html>
         <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
             data-sidebar-image="none" data-preloader="disable">

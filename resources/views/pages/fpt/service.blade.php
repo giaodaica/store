@@ -45,5 +45,46 @@
         </div><!-- end row -->
     </div><!-- end container -->
 </section>
-
+@else
+<section class="section" id="wallet">
+    <div class="">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="mb-3 fw-semibold lh-base">Du lịch</h2>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+                <div class="card-body">
+                    <div class="swiper effect-coverflow-swiper rounded pb-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/tour/sapa2.jpg') }}" alt="" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/tour/sapa3.jpg') }}" alt="" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/tour/sapa4.jpg') }}" alt="" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/tour/sapa5.jpg') }}" alt="" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/tour/sapa1.jpg') }}" alt="" class="img-fluid" />
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-dark"></div>
+                    </div>
+                </div><!-- end card-body -->
+            </div><!-- end card -->
+        </div>
+        <div class="text-center my-2">
+            <a href="tour" class="btn btn-success">Xem Thêm</a>
+        </div>
+    </div><!-- end container -->
+</section>
 @endif

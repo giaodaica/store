@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ShopingController;
+use App\Http\Controllers\TourController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -20,4 +21,9 @@ require __DIR__.'/auth.php';
 Route::get('/',[HomeController::class,'index']);
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);
-Route::post('shoping-cart',[ShopingController::class,'index']);
+Route::post('cart',[ProductController::class,'cart']);
+Route::get('shoping-cart',[ShopingController::class,'index']);
+Route::get('check-out',[ShopingController::class,'checkout']);
+Route::post('cart1',[ShopingController::class,'store']);
+Route::get('tour',[TourController::class,'index']);
+Route::get('tour/{id}',[TourController::class,'show']);

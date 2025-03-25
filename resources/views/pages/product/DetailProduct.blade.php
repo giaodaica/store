@@ -119,14 +119,14 @@
                                         </div>
                                         <div class="flex-shrink-0">
                                             <div>
-                                         @isset($_SESSION['shoping-cart'])
+                                         @if(session()->has('cart'))
                                          <i  class="ri-check-line btn btn-success" id="order-success"> Thành công</i>
                                          <script>
                                              setTimeout(function() {
                                                  document.getElementById('order-success').style.display = 'none';
                                              }, 1000);
                                          </script>
-                                         @endisset
+                                         @endif
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +160,7 @@
                                         </div>
 
                                     </div>
-                                    <form action="shoping-cart" method="post">
+                                    <form action="cart" method="post">
                                         @csrf
                                         {{-- form --}}
                                     <div class="row">

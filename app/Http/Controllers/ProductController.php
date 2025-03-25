@@ -58,6 +58,10 @@ class ProductController extends Controller
     /**
      * Remove the specified resource from storage.
      */
+    public function cart(){
+        session(['cart' => 1]);
+        return redirect('detail');
+    }
     public function destroy(Products $products)
     {
         //

@@ -107,7 +107,7 @@
                         <div class="row timeline-right">
                             <div class="col-12">
                                 <p class="timeline-date">
-                                    𝟓-𝟕/𝟒 (𝟐 Đ𝐄̂𝐌)
+                                    5-7/2 2 Đêm
                                 </p>
                             </div>
                             <div class="col-12">
@@ -115,7 +115,7 @@
                                     <div class="timeline-text">
                                         <div class="d-flex">
                                             <div class="flex-grow-1 ms-3">
-                                                <h5 class="mb-1">✅ 𝐆𝐈𝐀𝐈 Đ𝐎𝐀̣𝐍 𝟓-𝟕/𝟒 (𝟐 Đ𝐄̂𝐌) - 𝐀𝐋𝐋𝐄𝐘 𝐇𝐎𝐌𝐄𝐒𝐓𝐀𝐘 𝐒𝐀𝐏𝐀</h5>
+                                                <h5 class="mb-1">✅ Giai Đoạn 5-7/4 (2 Đêm - ALLEY HOMESTAY SAPA)</h5>
                                                 <p class="text-muted mb-0">- SUP: 2P</p>
                                                 <p class="text-muted mb-0">- DELUXE: 1p </p>
                                                 <p class="text-muted mb-0">- VIP: 2P  </p>
@@ -129,7 +129,7 @@
                         <div class="row timeline-right">
                             <div class="col-12">
                                 <p class="timeline-date">
-                                    𝐆𝐈𝐀𝐈 Đ𝐎𝐀̣𝐍 𝟓-𝟔/𝟒 (𝟏 Đ𝐄̂𝐌)
+                                    Giai Đoạn 5-6/4 1 Đêm
                                 </p>
                             </div>
                             <div class="col-12">
@@ -154,7 +154,7 @@
                                         {{-- <h5>Trip planning</h5> --}}
                                         <p class="text-danger">Và còn rất nhiều bên khác chờ khách vào tên ạ + Quỹ 30/4 vô kể nữa ạ
                                             Ib em thông tin chi tiết cho từng đoàn nhé❤️
-                                            ☎️ 𝐇𝐎𝐓𝐋𝐈𝐍𝐄: <a href="https://zalo.me/0387899370" target="_blank" rel="noopener noreferrer">Zalo</a></p>
+                                            ☎️ Hotline <a href="https://zalo.me/0387899370" target="_blank" rel="noopener noreferrer">Zalo</a></p>
 
                                     </div>
                                 </div>

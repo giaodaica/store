@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -19,3 +21,6 @@ require __DIR__.'/auth.php';
 Route::get('/',[HomeController::class,'index']);
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);
+Route::prefix('admin')->group(function () {
+    Route::get('/customer', [CustomerController::class,'index']);
+});

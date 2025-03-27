@@ -18,7 +18,7 @@ Route::get('dashboard', function () {
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);
 Route::post('cart',[ProductController::class,'cart']);

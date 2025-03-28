@@ -37,6 +37,7 @@ class RegisteredUserController extends Controller
             'username'=> $request->username,
             'password'=>$request->password
         ]);
+       
         Auth::login($user);
         return redirect()->route('home');
     }

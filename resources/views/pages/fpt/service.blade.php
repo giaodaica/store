@@ -61,33 +61,5 @@
         </div><!-- end container -->
     </section>
 @else
-    <section class="section" id="wallet">
 
-<div class="container-fluid text-center my-5">
-    <h2 class="fw-bold">Du Lịch</h2>
-    <div class="d-flex justify-content-center gap-4 flex-wrap">
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa1.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa2.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa3.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa4.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa5.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-        <div class="destination text-center">
-            <img src="{{ asset('assets/images/tour/sapa6.jpg') }}" alt="" class="rounded-circle avatar-xl">
-        </div>
-    </div>
-</div>
-<div class="text-center">
-    <a href="tour" class="btn btn-success">Xem Thêm</a>
-</div>
-    </section>
 @endif

@@ -82,33 +82,45 @@
                                         </div>
 
                                         <div class="mt-4">
-                                            <form action="index.html">
+                                            <form action="login" method="post">
                                                     @csrf
                                                 <div class="mb-3">
                                                     <label for="username" class="form-label">Tài khoản</label>
-                                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                                    <input type="text" class="form-control" name="login" id="username" placeholder="Tên tài khoản/email">
                                                 </div>
-
+                                                <div>
+                                                    <p class="text-danger">
+                                                        @error('login')
+                                                        {{$message}}
+                                                        @enderror
+                                                    </p>
+                                                </div>
                                                 <div class="mb-3">
                                                     <div class="float-end">
                                                         <a href="auth-pass-reset-cover.html" class="text-muted">Quên mật khẩu?</a>
                                                     </div>
                                                     <label class="form-label" for="password-input">Mật khẩu</label>
                                                     <div class="position-relative auth-pass-inputgroup mb-3">
-                                                        <input type="password" class="form-control pe-5 password-input" placeholder="Enter password" id="password-input">
+                                                        <input type="password" name="password" class="form-control pe-5 password-input" placeholder="Nhập mật khẩu của bạn" id="password-input">
                                                         <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                                     </div>
                                                 </div>
+                                                <div>
+                                                    <p class="text-danger">
+                                                        @error('password')
+                                                        {{$message}}
+                                                        @enderror
 
+                                                    </p>
+                                                </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="auth-remember-check">
+                                                    <input class="form-check-input" name="remember_token" type="checkbox" value="" id="auth-remember-check">
                                                     <label class="form-check-label" for="auth-remember-check">Ghi nhớ </label>
                                                 </div>
 
                                                 <div class="mt-4">
                                                     <button class="btn btn-success w-100" type="submit">Đăng nhập</button>
                                                 </div>
-
                                                 <div class="mt-4 text-center">
                                                     <div class="signin-other-title">
                                                         <h5 class="fs-13 mb-4 title">Đăng nhập với</h5>

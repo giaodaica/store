@@ -1,4 +1,4 @@
-@extends('layouts.layout_home')
+@extends('layouts.layout_service')
 @section('title')
     Virals
 @endsection
@@ -10,14 +10,6 @@
 
 </style>
     @endsection
-@section('menu')
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <div class="ms-auto">
-        <a href="login" class="btn btn-success">Đăng Nhập</a>
-        <a href="shoping-cart" class="btn btn-success"><i class="ri-shopping-cart-2-fill"></i></a>
-    </div>
-</div>
-@endsection
     <!-- start fpt -->
     {{-- @include('pages.fpt.service') --}}
     <!-- end fpt -->

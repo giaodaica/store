@@ -18,6 +18,9 @@ Route::get('dashboard', function () {
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
+Route::middleware('admin')->prefix('admin')->group(function(){
+
+});
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);

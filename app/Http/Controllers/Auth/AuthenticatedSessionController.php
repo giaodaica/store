@@ -27,6 +27,7 @@ class AuthenticatedSessionController extends Controller
     public function store(LoginRequest $request): RedirectResponse
     {
         $request->authenticate();
+        $remember = $request->has('remember_token');
         $request->session()->regenerate();
         return redirect()->intended(route('home', absolute: false));
     }

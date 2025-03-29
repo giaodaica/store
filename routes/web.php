@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ShopingController;
@@ -30,3 +31,7 @@ Route::get('check-out',[ShopingController::class,'checkout']);
 Route::post('cart1',[ShopingController::class,'store']);
 Route::get('tour',[TourController::class,'index']);
 Route::get('tour/{id}',[TourController::class,'show']);
+
+Route::prefix('admin')->group(function () {
+    Route::get('/customer', [CustomerController::class,'index']);
+});

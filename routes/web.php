@@ -20,6 +20,7 @@ Route::get('dashboard', function () {
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
 Route::middleware('admin')->prefix('admin')->group(function(){
+    Route::get('/customer', [CustomerController::class,'index']);
 
 });
 Route::get('/',[HomeController::class,'index'])->name('home');
@@ -32,6 +33,4 @@ Route::post('cart1',[ShopingController::class,'store']);
 Route::get('tour',[TourController::class,'index']);
 Route::get('tour/{id}',[TourController::class,'show']);
 
-Route::prefix('admin')->group(function () {
-    Route::get('/customer', [CustomerController::class,'index']);
-});
+

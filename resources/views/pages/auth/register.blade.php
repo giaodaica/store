@@ -122,7 +122,10 @@
                                                 <div class="mb-4">
                                                     <p class="mb-0 fs-12 text-muted fst-italic">Đồng ý với điều khoản của chúng tôi <a href="#" class="text-primary text-decoration-underline fst-normal fw-medium">Dịch vụ</a></p>
                                                 </div>
-
+                                                <div class="form-check">
+                                                    <input class="form-check-input" name="fpt_poly" type="checkbox" value="1" id="auth-remember-check">
+                                                    <label class="form-check-label" for="auth-remember-check">Nếu bạn là sinh viên FPL</label>
+                                                </div>
                                                 <div id="password-contain" class="p-3 bg-light mb-2 rounded">
                                                     <h5 class="fs-13">Mật khẩu phải</h5>
                                                     <p id="pass-length" class="invalid fs-12 mb-2">Ít nhất <b>8 kí tự</b></p>

@@ -7,9 +7,7 @@
     @include('blocks.banner')
     @section('css-custom')
 <style>
-nav#navbar {
-    height: 57px;
-}
+
 </style>
     @endsection
 @section('menu')

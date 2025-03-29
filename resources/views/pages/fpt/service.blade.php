@@ -6,15 +6,14 @@
 }
 
 </style>
-@if (isset($_SESSION['collage']))
+@if (Auth::check() && Auth::user()->fpt_poly == 1)
     <section class="section" id="wallet">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center mb-5">
-                        <h2 class="mb-3 fw-semibold lh-base">Connect NFT Marketplace</h2>
-                        <p class="text-muted">A non-fungible token is a non-interchangeable unit of data stored on a
-                            blockchain, a form of digital ledger, that can be sold and traded.</p>
+                        <h2 class="mb-3 fw-semibold lh-base">Lab Assignment</h2>
+                        <p class="text-muted">Đặt bài tập tại đây</p>
                     </div>
                 </div><!-- end col -->
             </div><!-- end row -->

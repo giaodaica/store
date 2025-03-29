@@ -32,12 +32,13 @@ class RegisteredUserController extends Controller
     public function store(RegisterRequest $request)
 
     {
+
         $user = User::create([
             'email' => $request->email,
             'username'=> $request->username,
-            'password'=>$request->password
+            'password'=>$request->password,
+            'fpt_poly'=>$request->fpt_poly
         ]);
-       
         Auth::login($user);
         return redirect()->route('home');
     }

@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ProductController as AdminProductController;
+use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
@@ -20,9 +23,16 @@ Route::get('dashboard', function () {
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
 Route::middleware('admin')->prefix('admin')->group(function(){
-    Route::get('/customer', [CustomerController::class,'index']);
-
+    Route::get('/products', [AdminProductController::class,'index'])->name('products.index');
+    Route::get('/create', [AdminProductController::class,'create'])->name('products.create');
+    Route::post('/create', [AdminProductController::class,'store'])->name('products.store');
+    Route::post('products/{id}/delete', [AdminProductController::class, 'destroy'])->name('products.destroy');
 });
+
+
+
+Route::get('/users', [UserController::class,'index'])->name('users.index');
+Route::get('/dashboard', [DashboardController::class,'index'])->name('dashboard.index');
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('shop',[ProductController::class,'index']);
 Route::get('detail',[ProductController::class,'show']);

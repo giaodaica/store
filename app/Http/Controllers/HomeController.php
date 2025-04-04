@@ -124,5 +124,8 @@ class HomeController extends Controller
     {
         //
     }
+    public function success(){
+        return view('pages.auth.success');
+    }
 
 }

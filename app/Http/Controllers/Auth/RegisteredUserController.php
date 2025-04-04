@@ -51,6 +51,6 @@ class RegisteredUserController extends Controller
         Mail::to($user->email)->send(new WelcomeEmail($data));
 
         // Chuyển hướng người dùng về trang chủ
-        return redirect()->route('home');
+        return redirect()->route('success');
     }
 }

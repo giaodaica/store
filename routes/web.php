@@ -47,4 +47,5 @@ Route::get('sendemail',[DashboardController::class,'sendEmail']);
 Route::get('resetpasss',[DashboardController::class,'resetpasss']);
 Route::post('quenmatkhau',[DashboardController::class,'quenmatkhau']);
 Route::get('/autocomplete', [HomeController::class, 'autocomplete'])->name('autocomplete');
+Route::get('/success', [HomeController::class, 'success'])->name('success');
 

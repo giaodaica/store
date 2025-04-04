@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Products;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -34,7 +34,7 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Products $products)
+    public function show(Product $products)
     {
         return view('pages.product.DetailProduct');
     }
@@ -42,7 +42,7 @@ class ProductController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Products $products)
+    public function edit(Product $products)
     {
         //
     }
@@ -50,7 +50,7 @@ class ProductController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Products $products)
+    public function update(Request $request, Product $products)
     {
         //
     }
@@ -62,7 +62,7 @@ class ProductController extends Controller
         session(['cart' => 1]);
         return redirect('detail');
     }
-    public function destroy(Products $products)
+    public function destroy(Product $products)
     {
         //
     }

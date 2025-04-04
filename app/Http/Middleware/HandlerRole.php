@@ -13,7 +13,7 @@ class HandlerRole
     {
         // Kiểm tra nếu chưa đăng nhập hoặc không phải admin
         if (!Auth::check() || Auth::user()->role !== 'admin') {
-            return redirect('/home')->with('error', 'Bạn không có quyền truy cập.');
+            return redirect('/404')->with('error', 'Bạn không có quyền truy cập.');
         }
 
         return $next($request);

@@ -41,28 +41,28 @@
             <label class="btn btn-success" for="btncheck1">Tất cả</label>
 
             <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" value=".project">
-            <label class="btn btn-success" for="btncheck2">Project</label>
+            <label class="btn btn-success" for="btncheck2">Áo thun nam</label>
 
             <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off" value=".designing">
-            <label class="btn btn-success" for="btncheck3">Designing</label>
+            <label class="btn btn-success" for="btncheck3">Áo thun nam loại 1</label>
 
             <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off" value=".photography">
-            <label class="btn btn-success" for="btncheck4">Photography</label>
+            <label class="btn btn-success" for="btncheck4">Áo thun nữ</label>
 
             <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off" value=".development">
-            <label class="btn btn-success" for="btncheck5">Development</label>
+            <label class="btn btn-success" for="btncheck5">Áo vest nam</label>
         </div>
     </div>
 </div>
 {{-- end-offcanvas --}}
         <div class="row gallery-wrapper">
-                <div class="col-lg-3 element-item development">
+                <div class="col-lg-3 element-item project">
                     <div class="card explore-box card-animate">
                         <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="{{ asset('assets/images/nft/img-03.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-01.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -89,7 +89,7 @@
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="{{ asset('assets/images/nft/img-02.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-02.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -110,13 +110,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 element-item designing">
+                <div class="col-lg-3 element-item project">
                     <div class="card explore-box card-animate">
                         <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="https://img.themesbrand.com/velzon/images/img-4.gif" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/11.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -137,13 +137,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 element-item crypto-card 3d-style">
+                <div class="col-lg-3 element-item photography">
                     <div class="card explore-box card-animate">
                         <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="{{ asset('assets/images/nft/img-01.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-04.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -164,13 +164,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 element-item games music 3d-style">
+                <div class="col-lg-3 element-item photography">
                     <div class="card explore-box card-animate">
                         <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="{{ asset('assets/images/nft/img-05.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-05.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -191,13 +191,392 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 element-item project">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-06.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 element-item photography">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-07.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item project">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-08.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item development">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-09.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item photography">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/demo-fashion-store-product-10.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item project">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/12.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item project">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/13.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/14.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/15.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/16.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/17.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/18.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/19.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 element-item designing">
+                    <div class="card explore-box card-animate">
+                        <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                        </div>
+                        <div class="explore-place-bid-img">
+                            <img src="{{ asset('assets/images/20.avif') }}" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
+                            <p class="text-muted mb-0">Artwork</p>
+                        </div>
+                        <div class="card-footer border-top border-top-dashed">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 fs-14">
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                </div>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-3 element-item artwork music crypto-card">
                     <div class="card explore-box card-animate">
                         <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                             <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         </div>
                         <div class="explore-place-bid-img">
-                            <img src="{{ asset('assets/images/nft/img-06.jpg') }}" alt="" class="card-img-top explore-img" />
+                            <img src="{{ asset('assets/images/demo-fashion-store-banner-03.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
                                 <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>

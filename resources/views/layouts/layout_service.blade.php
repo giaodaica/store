@@ -1,5 +1,17 @@
 @section('menu')
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<style>
+   input[type="text"] {
+    width: 400px !important;
+    border-radius: 5px;
+    height: 40px;
+}
+</style>
+    <div class="input-group">
+        <form action="search" method="post">
+            @csrf
+            <input type="text" class="" aria-label="" placeholder="tìm kiếm sản phẩm">
+        </form>
+       </div>
     <div class="ms-auto">
         @if(Auth::check())
 

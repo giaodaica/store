@@ -21,7 +21,9 @@ class HomeController extends Controller
     {
         //
     }
-
+    public function search(){
+        
+    }
     /**
      * Store a newly created resource in storage.
      */

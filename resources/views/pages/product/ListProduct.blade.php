@@ -65,20 +65,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-01.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                            <h5 class="mb-1"><a href="detail">Creative Filtered </a></h5>
+                            <h5 class="mb-1"><a href="detail">Áo thun nam </a></h5>
                             <p class="text-muted mb-0">Photography</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">75.3ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">75.3VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">67.36 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -92,20 +91,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-02.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 23.63k </p>
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">The Chirstoper</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo Somi nữ</a></h5>
                             <p class="text-muted mb-0">Music</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">412.30ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">412.30VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">394.7 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -119,20 +117,19 @@
                             <img src="{{ asset('assets/images/11.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 15.93k </p>
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Evolved Reality</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo Phông Nam</a></h5>
                             <p class="text-muted mb-0">Video</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">2.75ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">2.75VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">3.167 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -146,20 +143,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-04.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 14.85k </p>
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Abstract Face </a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo nữ đẹp </a></h5>
                             <p class="text-muted mb-0">Collectibles</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">122.34ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">122.34VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">97.8 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -173,20 +169,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-05.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Long-tailed Macaque</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo nữ thể thao</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 64.10k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">874.01ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">874.01VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">745.14 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -200,20 +195,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-06.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo thun nam</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -228,20 +222,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-07.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo thun nam</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -255,20 +248,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-08.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo thun nam</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -282,20 +274,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-09.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo vest nam</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -309,20 +300,19 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-product-10.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Áo thun nữ</a></h5>
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
                             <p class="text-muted mb-0">Artwork</p>
                         </div>
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                             </div>
                         </div>
                     </div>
@@ -336,7 +326,7 @@
                             <img src="{{ asset('assets/images/12.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -347,9 +337,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -363,7 +353,7 @@
                             <img src="{{ asset('assets/images/13.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -374,9 +364,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -390,7 +380,7 @@
                             <img src="{{ asset('assets/images/14.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -401,9 +391,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -417,7 +407,7 @@
                             <img src="{{ asset('assets/images/15.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -428,9 +418,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -444,7 +434,7 @@
                             <img src="{{ asset('assets/images/16.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -455,9 +445,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -471,7 +461,7 @@
                             <img src="{{ asset('assets/images/17.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -482,9 +472,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -498,7 +488,7 @@
                             <img src="{{ asset('assets/images/18.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -509,9 +499,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -525,7 +515,7 @@
                             <img src="{{ asset('assets/images/19.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -536,9 +526,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -552,7 +542,7 @@
                             <img src="{{ asset('assets/images/20.avif') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -563,9 +553,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>
@@ -579,7 +569,7 @@
                             <img src="{{ asset('assets/images/demo-fashion-store-banner-03.jpg') }}" alt="" class="card-img-top explore-img" />
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Xem</a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -590,9 +580,9 @@
                         <div class="card-footer border-top border-top-dashed">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 fs-14">
-                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
+                                    <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Giá: <span class="fw-medium">41.658 VND</span>
                                 </div>
-                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
+                                <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 VND</h5>
                             </div>
                         </div>
                     </div>

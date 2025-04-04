@@ -43,5 +43,8 @@ Route::post('cart1',[ShopingController::class,'store']);
 Route::get('tour',[TourController::class,'index']);
 Route::get('tour/{id}',[TourController::class,'show']);
 Route::post('search',[HomeController::class,'search']);
-
+Route::get('sendemail',[DashboardController::class,'sendEmail']);
+Route::get('resetpasss',[DashboardController::class,'resetpasss']);
+Route::post('quenmatkhau',[DashboardController::class,'quenmatkhau']);
+Route::get('/autocomplete', [HomeController::class, 'autocomplete'])->name('autocomplete');
 

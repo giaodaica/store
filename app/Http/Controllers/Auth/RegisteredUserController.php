@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Inertia\Inertia;
 use Inertia\Response;
-
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeEmail;
 class RegisteredUserController extends Controller
 {
     /**
@@ -30,16 +31,26 @@ class RegisteredUserController extends Controller
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(RegisterRequest $request)
-
     {
-
+        // Tạo người dùng mới
         $user = User::create([
             'email' => $request->email,
             'username'=> $request->username,
-            'password'=>$request->password,
-            'fpt_poly'=>$request->fpt_poly
+            'password'=> bcrypt($request->password), // Mã hóa mật khẩu
+            'fpt_poly'=> $request->fpt_poly
         ]);
+
+        // Đăng nhập người dùng ngay lập tức
         Auth::login($user);
+
+        // Gửi email chào mừng kèm đường link (không cần route)
+        $data = [
+            'name' => $user->username,
+            'link' => 'https://yourwebsite.com/verify?email=' . base64_encode($user->email), // Link cố định cho việc xác thực
+        ];
+        Mail::to($user->email)->send(new WelcomeEmail($data));
+
+        // Chuyển hướng người dùng về trang chủ
         return redirect()->route('home');
     }
 }

@@ -17,11 +17,9 @@ return new class extends Migration
             $table->unsignedBigInteger('product_id')->index();
             $table->unsignedBigInteger('variant_id')->nullable()->index();
             $table->string('image_url');
-            $table->boolean('is_primary')->default(false);
-        
+            $table->boolean('is_primary')->default(false);  
             // Thêm timestamps
             $table->timestamps();
-        
             // Foreign keys
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
             $table->foreign('variant_id')->references('id')->on('variants')->onDelete('cascade');

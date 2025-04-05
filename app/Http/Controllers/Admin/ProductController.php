@@ -78,7 +78,8 @@ class ProductController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $product = Product::with(['variants', 'images', 'variantAttributes'])->findOrFail($id);
+        return view('admin.products.show', compact('product'));
     }
 
     /**
@@ -86,7 +87,8 @@ class ProductController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $product = Product::with(['variants', 'images'])->findOrFail($id);
+        return view('admin.products.edit', compact('product'));
     }
 
     /**
@@ -94,7 +96,38 @@ class ProductController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'base_price' => 'required|numeric',
+            'description' => 'nullable|string',
+            'image.*' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+    
+        $product = Product::findOrFail($id);
+    
+        // Cập nhật thông tin sản phẩm
+        $product->update([
+            'name' => $validated['name'],
+            'base_price' => $validated['base_price'],
+            'description' => $validated['description'] ?? null,
+        ]);
+    
+        // Cập nhật hình ảnh (nếu có)
+        if ($request->hasFile('image')) {
+            // Xóa hình ảnh cũ
+            foreach ($product->images as $image) {
+                if ($image->image_url) {
+                    Storage::disk('public')->delete($image->image_url); // Xóa file khỏi storage
+                }
+                $image->delete(); // Xóa bản ghi trong database
+            }
+        
+            // Lưu hình ảnh mới
+            $path = $request->file('image')->store('products', 'public');
+            $product->images()->create(['image_url' => $path]);
+        }
+    
+        return redirect()->route('products.index')->with('success', 'Sản phẩm đã được cập nhật thành công!');
     }
 
     /**

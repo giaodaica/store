@@ -58,23 +58,25 @@
                             <div>
                                 <strong>SKU:</strong> {{ $variant->sku }}<br>
                                 <strong>Giá:</strong> {{ number_format($variant->price, 0, ',', '.') }} VND<br>
-                                <strong>Thuộc tính:</strong>
-                                <ul>
-                                    @foreach ($product->variantAttributes as $variantAttributes)
-                                    <li> {{ $variantAttributes->value }}</li>
-                                    @endforeach
-                                </ul>
+    
+                             
                             </div>
                             @endforeach
                         </td>
                         <td>
-                            <a href="" class="btn btn-info btn-sm p-2">
+                            <form action="{{ route('products.show', $product->id) }}" method="GET" style="display: inline-block">
+                                @csrf
+                                <button type="submit" class="btn btn-info btn-sm p-2">
                                 <i class="fa fa-eye"></i> Xem
-                            </a>
+                                </button>
+                            </form>
                             <!-- Nút Sửa -->
-                            <a href="" class="btn btn-warning btn-sm p-2">
+                            <form action="{{ route('products.edit', $product->id) }}" method="GET" style="display: inline-block">
+                                @csrf
+                                <button type="submit" class="btn btn-warning btn-sm p-2">
                                 <i class="fa fa-edit"></i> Sửa
-                            </a>
+                                </button>
+                            </form>
                             <!-- Nút Xóa -->
                             <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display: inline-block">
                                 @csrf

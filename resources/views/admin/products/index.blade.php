@@ -58,7 +58,7 @@
                             <div>
                                 <strong>SKU:</strong> {{ $variant->sku }}<br>
                                 <strong>Giá:</strong> {{ number_format($variant->price, 0, ',', '.') }} VND<br>
-    
+
                              
                             </div>
                             @endforeach

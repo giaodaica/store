@@ -23,15 +23,15 @@ use Inertia\Inertia;
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
 Route::middleware('admin')->prefix('admin')->group(function(){
-
+    Route::get('/products', [AdminProductController::class,'index'])->name('products.index');
+    Route::get('/create', [AdminProductController::class,'create'])->name('products.create');
+    Route::post('/create', [AdminProductController::class,'store'])->name('products.store');
+    Route::post('products/{id}/delete', [AdminProductController::class, 'destroy'])->name('products.destroy');
+    Route::get('products/{id}', [AdminProductController::class, 'show'])->name('products.show');
+    Route::get('products/{id}/edit', [AdminProductController::class, 'edit'])->name('products.edit');
+    Route::put('products/{id}', [AdminProductController::class, 'update'])->name('products.update');
 });
-Route::get('/products', [AdminProductController::class,'index'])->name('products.index');
-Route::get('/create', [AdminProductController::class,'create'])->name('products.create');
-Route::post('/create', [AdminProductController::class,'store'])->name('products.store');
-Route::post('products/{id}/delete', [AdminProductController::class, 'destroy'])->name('products.destroy');
-Route::get('products/{id}', [AdminProductController::class, 'show'])->name('products.show');
-Route::get('products/{id}/edit', [AdminProductController::class, 'edit'])->name('products.edit');
-Route::put('products/{id}', [AdminProductController::class, 'update'])->name('products.update');
+
 
 Route::get('/users', [UserController::class,'index'])->name('users.index');
 Route::get('/dashboard', [DashboardController::class,'index'])->name('dashboard.index');

@@ -32,7 +32,7 @@ Route::middleware('admin')->prefix('admin')->group(function(){
     Route::put('products/{id}', [AdminProductController::class, 'update'])->name('products.update');
 });
 
-
+// trần trung hiếu đẹp gái
 Route::get('/users', [UserController::class,'index'])->name('users.index');
 Route::get('/dashboard', [DashboardController::class,'index'])->name('dashboard.index');
 Route::get('/',[HomeController::class,'index'])->name('home');

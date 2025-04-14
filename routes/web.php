@@ -11,6 +11,7 @@ use App\Http\Controllers\TourController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+// NGUYỄN QUANG THIỆN
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome');
